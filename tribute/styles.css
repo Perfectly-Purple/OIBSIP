@@ -1,0 +1,117 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://i.pinimg.com/originals/ef/34/05/ef340513650ecdc6641128973dae2704.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  height: 600px;
+  background-image: url('https://www.maxpixel.net/static/photo/1x/Frame-Header-Banner-Twitter-Cover-Dark-Neon-6373492.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+object-fit: cover;
+border: 10px solid white;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
+}
+
+header h1 {
+font-size: 60px;
+margin: 0;
+}
+
+header h2 {
+font-size: 36px;
+margin: 0;
+font-weight: normal;
+}
+
+/* Bio section styles */
+#bio {
+background-color: rgba(0, 0, 0, 0.7);
+padding: 50px 0;
+}
+
+#bio h3 {
+margin-top: 0;
+}
+
+#bio p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+
+/* Contributions section styles */
+#contributions {
+padding: 50px 0;
+}
+
+#contributions h3 {
+margin-top: 0;
+}
+
+#contributions ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+#contributions li {
+width: 50%;
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+/* Quote section styles */
+#quote {
+background-color: rgba(0, 0, 0, 0.7);
+padding: 50px 0;
+}
+
+#quote blockquote {
+font-size: 36px;
+margin: 0;
+font-style: italic;
+text-align: center;
+}
+
+/* Footer styles */
+footer {
+background-color: rgba(0, 0, 0, 0.7);
+padding: 20px 0;
+text-align: center;
+}
+
+footer p {
+font-size: 16px;
+margin: 0;
+}
